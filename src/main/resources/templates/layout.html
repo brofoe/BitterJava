@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>BitterJava</title>
+    <link rel="stylesheet" th:href="@{/css/style.css}">
+</head>
+<body>
+<div class="app-shell" th:fragment="layout(content)">
+    <header class="topbar">
+        <a class="brand" th:href="@{/}">BitterJava</a>
+        <span class="tagline">A community for curious minds</span>
+        <nav class="account-nav" aria-label="Account">
+            <span class="account-name" th:if="${currentUsername != null}"
+                  th:text="${currentUsername}"></span>
+            <a th:if="${currentUsername == null}" th:href="@{/login}">Log in</a>
+            <a th:if="${currentUsername == null}" th:href="@{/register}">Register</a>
+            <form th:if="${currentUsername != null}" th:action="@{/logout}" method="post">
+                <input type="hidden" name="_csrf" th:value="${csrfToken}">
+                <button class="text-button" type="submit">Log out</button>
+            </form>
+        </nav>
+    </header>
+    <div class="dashboard">
+        <aside class="sidebar">
+            <p class="sidebar-label">COMMUNITY</p>
+            <a class="nav-link active" th:href="@{/}">Home</a>
+            <a class="nav-link" th:if="${currentUsername == null}" th:href="@{/login}">Log in</a>
+            <a class="nav-link" th:if="${currentUsername == null}" th:href="@{/register}">Register</a>
+        </aside>
+        <main class="content">
+            <th:block th:replace="${content}"></th:block>
+        </main>
+    </div>
+</div>
+</body>
+</html>

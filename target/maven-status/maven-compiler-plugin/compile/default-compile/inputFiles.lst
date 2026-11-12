@@ -1,0 +1,11 @@
+C:\Users\ccm22\Desktop\Project\src\main\java\com\bitterjava\BitterJavaApplication.java
+C:\Users\ccm22\Desktop\Project\src\main\java\com\bitterjava\config\PasswordConfig.java
+C:\Users\ccm22\Desktop\Project\src\main\java\com\bitterjava\controller\AuthController.java
+C:\Users\ccm22\Desktop\Project\src\main\java\com\bitterjava\controller\HomeController.java
+C:\Users\ccm22\Desktop\Project\src\main\java\com\bitterjava\controller\SharedModelAdvice.java
+C:\Users\ccm22\Desktop\Project\src\main\java\com\bitterjava\model\User.java
+C:\Users\ccm22\Desktop\Project\src\main\java\com\bitterjava\repository\UserRepository.java
+C:\Users\ccm22\Desktop\Project\src\main\java\com\bitterjava\service\CsrfTokenService.java
+C:\Users\ccm22\Desktop\Project\src\main\java\com\bitterjava\service\SessionKeys.java
+C:\Users\ccm22\Desktop\Project\src\main\java\com\bitterjava\service\UsernameAlreadyExistsException.java
+C:\Users\ccm22\Desktop\Project\src\main\java\com\bitterjava\service\UserService.java

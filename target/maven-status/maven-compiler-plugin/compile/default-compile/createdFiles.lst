@@ -1,0 +1,11 @@
+com\bitterjava\service\UsernameAlreadyExistsException.class
+com\bitterjava\service\CsrfTokenService.class
+com\bitterjava\config\PasswordConfig.class
+com\bitterjava\service\UserService.class
+com\bitterjava\repository\UserRepository.class
+com\bitterjava\controller\HomeController.class
+com\bitterjava\model\User.class
+com\bitterjava\controller\SharedModelAdvice.class
+com\bitterjava\service\SessionKeys.class
+com\bitterjava\BitterJavaApplication.class
+com\bitterjava\controller\AuthController.class

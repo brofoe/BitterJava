@@ -1,0 +1,1 @@
+Maven has problems in beginning. Not in PATH. Configuration was needed. 
