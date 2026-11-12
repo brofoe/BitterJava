@@ -219,6 +219,8 @@
   },
   "active": "b7d9022e6d24a427",
   "lastOpenFiles": [
+    "README.md",
+    "LICENSE",
     "What went wrong.md",
     "Proj Notes.md",
     "Things to implement or other notes alike.md",
@@ -230,7 +232,6 @@
     "target/classes/com/bitterjava/repository/UserRepository.class",
     "target/classes/com/bitterjava/service/CsrfTokenService.class",
     "target/classes/com/bitterjava/service/UserService.class",
-    "target/classes/com/bitterjava/controller/AuthController.class",
-    "target/classes/com/bitterjava/config/PasswordConfig.class"
+    "target/classes/com/bitterjava/controller/AuthController.class"
   ]
 }
